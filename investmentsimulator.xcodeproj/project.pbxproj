@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		36A217B417A9A34600A57CD8 /* Bond.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bond.csv; sourceTree = "<group>"; };
+		36A217B517A9A34600A57CD8 /* Inflation.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Inflation.csv; sourceTree = "<group>"; };
+		36A217B617A9A34600A57CD8 /* Quarterly SP500 Data Since 1871-Q1 - Sheet1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Quarterly SP500 Data Since 1871-Q1 - Sheet1.csv"; sourceTree = "<group>"; };
+		36A217B717A9A34600A57CD8 /* SP500.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SP500.csv; sourceTree = "<group>"; };
+		36A217B817A9A34600A57CD8 /* Action.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Action.py; sourceTree = "<group>"; };
+		36A217B917A9A34600A57CD8 /* Asset.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Asset.py; sourceTree = "<group>"; };
+		36A217BA17A9A34600A57CD8 /* Environment.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Environment.py; sourceTree = "<group>"; };
+		36A217BB17A9A34600A57CD8 /* HistoricState.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = HistoricState.py; sourceTree = "<group>"; };
+		36A217BC17A9A34600A57CD8 /* Log.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Log.py; sourceTree = "<group>"; };
+		36A217BD17A9A34600A57CD8 /* Market.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Market.py; sourceTree = "<group>"; };
+		36A217BE17A9A34600A57CD8 /* MarketSim.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MarketSim.py; sourceTree = "<group>"; };
+		36A217BF17A9A34600A57CD8 /* MortgageCalc.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MortgageCalc.py; sourceTree = "<group>"; };
+		36A217C017A9A34600A57CD8 /* MortgageSim.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MortgageSim.py; sourceTree = "<group>"; };
+		36A217C117A9A34600A57CD8 /* MultiThread.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MultiThread.py; sourceTree = "<group>"; };
+		36A217C217A9A34600A57CD8 /* Parameters.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Parameters.py; sourceTree = "<group>"; };
+		36A217C317A9A34600A57CD8 /* printCash.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = printCash.py; sourceTree = "<group>"; };
+		36A217C417A9A34600A57CD8 /* PRNG.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PRNG.py; sourceTree = "<group>"; };
+		36A217C517A9A34600A57CD8 /* RunSimulation.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = RunSimulation.py; sourceTree = "<group>"; };
+		36A217C617A9A34600A57CD8 /* StateOfTheUnion.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = StateOfTheUnion.py; sourceTree = "<group>"; };
+		36A217C717A9A34600A57CD8 /* Strategy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Strategy.py; sourceTree = "<group>"; };
+		36A217C817A9A34600A57CD8 /* Tally.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Tally.py; sourceTree = "<group>"; };
+		36A217C917A9A34600A57CD8 /* tax_rates.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = tax_rates.py; sourceTree = "<group>"; };
+		36A217CA17A9A34600A57CD8 /* TaxTable.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TaxTable.py; sourceTree = "<group>"; };
+		36ADFA4D17C97403001FFAA8 /* StrategyBasic.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = StrategyBasic.py; sourceTree = "<group>"; };
+		36CD604117C69F6F00F0C243 /* LifeExpectancy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LifeExpectancy.py; sourceTree = "<group>"; };
+		36EBE5C517C16D0E0073E3CA /* Utility.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Utility.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		36A217A917A9A2CC00A57CD8 = {
+			isa = PBXGroup;
+			children = (
+				36A217CB17A9A35500A57CD8 /* HistoricalData */,
+				36A217B817A9A34600A57CD8 /* Action.py */,
+				36A217B917A9A34600A57CD8 /* Asset.py */,
+				36A217BA17A9A34600A57CD8 /* Environment.py */,
+				36A217BB17A9A34600A57CD8 /* HistoricState.py */,
+				36A217BC17A9A34600A57CD8 /* Log.py */,
+				36CD604117C69F6F00F0C243 /* LifeExpectancy.py */,
+				36EBE5C517C16D0E0073E3CA /* Utility.py */,
+				36A217BD17A9A34600A57CD8 /* Market.py */,
+				36A217BE17A9A34600A57CD8 /* MarketSim.py */,
+				36A217BF17A9A34600A57CD8 /* MortgageCalc.py */,
+				36A217C017A9A34600A57CD8 /* MortgageSim.py */,
+				36A217C117A9A34600A57CD8 /* MultiThread.py */,
+				36A217C217A9A34600A57CD8 /* Parameters.py */,
+				36A217C317A9A34600A57CD8 /* printCash.py */,
+				36A217C417A9A34600A57CD8 /* PRNG.py */,
+				36A217C517A9A34600A57CD8 /* RunSimulation.py */,
+				36A217C617A9A34600A57CD8 /* StateOfTheUnion.py */,
+				36A217C717A9A34600A57CD8 /* Strategy.py */,
+				36ADFA4D17C97403001FFAA8 /* StrategyBasic.py */,
+				36A217C817A9A34600A57CD8 /* Tally.py */,
+				36A217C917A9A34600A57CD8 /* tax_rates.py */,
+				36A217CA17A9A34600A57CD8 /* TaxTable.py */,
+			);
+			sourceTree = "<group>";
+		};
+		36A217CB17A9A35500A57CD8 /* HistoricalData */ = {
+			isa = PBXGroup;
+			children = (
+				36A217B417A9A34600A57CD8 /* Bond.csv */,
+				36A217B517A9A34600A57CD8 /* Inflation.csv */,
+				36A217B617A9A34600A57CD8 /* Quarterly SP500 Data Since 1871-Q1 - Sheet1.csv */,
+				36A217B717A9A34600A57CD8 /* SP500.csv */,
+			);
+			name = HistoricalData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		36A217AE17A9A2CC00A57CD8 /* investmentsimulator */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 36A217B117A9A2CC00A57CD8 /* Build configuration list for PBXLegacyTarget "investmentsimulator" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = "$(SRCROOT)";
+			dependencies = (
+			);
+			name = investmentsimulator;
+			passBuildSettingsInEnvironment = 1;
+			productName = investmentsimulator;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		36A217AA17A9A2CC00A57CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = annonymous;
+			};
+			buildConfigurationList = 36A217AD17A9A2CC00A57CD8 /* Build configuration list for PBXProject "investmentsimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36A217A917A9A2CC00A57CD8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36A217AE17A9A2CC00A57CD8 /* investmentsimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		36A217AF17A9A2CC00A57CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36A217B017A9A2CC00A57CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36A217B217A9A2CC00A57CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36A217B317A9A2CC00A57CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36A217AD17A9A2CC00A57CD8 /* Build configuration list for PBXProject "investmentsimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A217AF17A9A2CC00A57CD8 /* Debug */,
+				36A217B017A9A2CC00A57CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A217B117A9A2CC00A57CD8 /* Build configuration list for PBXLegacyTarget "investmentsimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A217B217A9A2CC00A57CD8 /* Debug */,
+				36A217B317A9A2CC00A57CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36A217AA17A9A2CC00A57CD8 /* Project object */;
+}
